@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated dataset outputs
+data_processed/
+processed_data/
+outputs/
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Logs and local environment files
+logs/
+*.log
+.env
+.env.*
+!.env.example
+
+# Local editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
